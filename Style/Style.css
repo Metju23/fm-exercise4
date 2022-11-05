@@ -1,0 +1,187 @@
+/* ### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%) */
+
+
+body {
+    min-height: 40vh;
+    max-width: 1440px;
+    display: grid;
+    place-content: center;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: hsl(0, 0%, 94%);
+}
+
+header {
+    text-align: center;   
+    margin-bottom: 4em;
+}
+
+    .header-text {
+        display: flex;
+        justify-content: center;
+    }
+
+    header p {
+        font-size: 15px;
+        margin: 3vh;
+        width: 55%;
+        text-align: center;
+    }
+
+    h1, h2, h3 {
+        color: hsl(234, 12%, 34%);
+        font-size: 34px;
+        margin: 0px;
+    }
+
+    h2 {
+        font-weight: 200;
+        margin-top: 2em;
+    }
+
+    h3 {
+        font-size: 18px;
+        padding: 3vh 4vh 0vh 4vh;
+    }
+
+    p {
+        font-size: 12px;
+        color: hsl(229, 6%, 66%);
+        padding: 0vh 6vh 0vh 4vh;
+    }
+
+
+
+
+/* ------------------end Header----------------- */
+
+
+
+.table-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.table1 {
+    background-color: white;
+    width: 40vh;
+    min-height: 28vh;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px hsl(226, 12%, 79%);
+    margin: 0 1em 2em 1em;    
+}
+
+    .line1 {
+        display: flex;
+        background-color: hsl(180, 62%, 55%);
+        height: 4px;
+        margin: 2px;
+        border-radius: 100vh 100vh 0vh 0vh;
+    }
+
+    .table1 img {
+        display: flex;
+        margin-left: auto;
+        padding: 1vh 3vh 0vh 2vh;
+        min-width: 64px;
+    }
+    
+
+.table2 {
+    
+    background-color: white;
+    width: 40vh;
+    min-height: 28vh;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px hsl(226, 12%, 79%);
+    margin: 0 1em 2em 1em;
+}
+    
+    .line2 {
+        display: flex;
+        background-color: hsl(0, 78%, 62%);
+        height: 4px;
+        margin: 2px;
+        border-radius: 100vh 100vh 0vh 0vh;
+    }
+    
+    .table2 img {
+        display: flex;
+        margin-left: auto;
+        padding: 1vh 3vh 0vh 2vh;
+    }
+
+
+.table3 {
+    
+    background-color: white;
+    width: 40vh;
+    min-height: 28vh;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px hsl(226, 12%, 79%);
+    margin: 0 1em 2em 1em;
+    }
+        
+    .line3 {
+        display: flex;
+        background-color: hsl(34, 97%, 64%);
+        height: 4px;
+        margin: 2px;
+        border-radius: 100vh 100vh 0vh 0vh;
+    }
+        
+    .table3 img {
+        display: flex;
+        margin-left: auto;
+        padding: 1vh 3vh 0vh 2vh;
+    }
+
+
+.table4 {
+    
+    background-color: white;
+    width: 40vh;
+    min-height: 28vh;
+    border-radius: 10px;
+    box-shadow: 5px 15px 15px hsl(226, 12%, 79%);
+    margin: 0 1em 2em 1em;
+    }
+            
+    .line4 {
+        display: flex;
+        background-color: hsl(212, 86%, 64%);
+        height: 4px;
+        margin: 2px;
+        border-radius: 100vh 100vh 0vh 0vh;
+    }
+            
+    .table4 img {
+        display: flex;
+        margin-left: auto;
+        padding: 1vh 3vh 0vh 2vh;
+    }
+
+
+    .box1, .box3 {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
